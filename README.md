@@ -1,5 +1,22 @@
+I. Problem Statement
+The objective of this project is to develop a comprehensive database management system for an organization that oversees various operational aspects including employee management, departmental organization, role assignments, attendance tracking, and allowances administration.
 
- 1. Table Creation
+This system is designed to address the following challenges:
+
+Employee Management: The organization requires a robust method for storing and managing employee information such as personal details, job roles, contact information, and salary records. Ensuring data integrity and uniqueness of records is essential.
+
+Departmental Organization: The database must effectively organize departments, linking them to relevant countries, and provide the ability to manage departmental information seamlessly.
+
+Role and Allowance Tracking: The system should allow for the definition and management of various employee roles, including the allocation of allowances based on these roles. This is crucial for maintaining fair compensation practices and managing employee benefits effectively.
+
+Attendance Monitoring: Tracking employee attendance is vital for operational efficiency. The system needs to capture attendance records, including status updates (Present, Absent, Leave), and link them directly to employee profiles.
+
+Data Integrity and Relationships: The database must maintain strong relationships between different entities (e.g., Employees, Departments, Roles, Allowances) to ensure data consistency and enable comprehensive reporting.
+
+Scalability: The system should be designed to accommodate future growth, whether that means adding new roles, departments, or employee records.
+
+
+ II. 1. Table Creation
  Commands Executed:
 - Countries Table
   ```sql
